@@ -1,5 +1,7 @@
 import { describe, it, expect, } from 'vitest';
-const operaciones = require('../src/calcu');
+import { Calculadora } from '../src/clase.ts';
+
+const operaciones = new Calculadora();
 
 describe('Pruebas de la calculadora', () => {
     it('Suma de 2 y 3 debe ser 5', () => {
