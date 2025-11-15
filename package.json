@@ -3,13 +3,6 @@
     "license": "MIT",
     "main": "dist/index.js",
     "typings": "dist/index.d.ts",
-    "files": [
-        "dist",
-        "src"
-    ],
-    "engines": {
-        "node": ">=10"
-    },
     "scripts": {
         "start": "tsdx watch",
         "build": "tsdx build",
@@ -19,6 +12,14 @@
         "size": "size-limit",
         "analyze": "size-limit --why"
     },
+    "engines": {
+        "node": "22.20.0"
+    },
+    "files": [
+        "dist",
+        "src"
+    ],
+    
     "husky": {
         "hooks": {
             "pre-commit": "tsdx lint"

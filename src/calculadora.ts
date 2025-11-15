@@ -1,4 +1,4 @@
-export class Calculadora{
+export class Calculadora {
     sumar(a:number, b:number):number{
         return a + b;
     }
@@ -18,5 +18,3 @@ export class Calculadora{
         return a / b;
     }
 }
-
-module.exports = Calculadora;

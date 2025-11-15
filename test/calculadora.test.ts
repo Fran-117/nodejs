@@ -1,5 +1,5 @@
 import { describe, it, expect, } from 'vitest';
-import { Calculadora } from '../src/clase.ts';
+import { Calculadora } from '../src/calculadora.ts';
 
 const operaciones = new Calculadora();
 
