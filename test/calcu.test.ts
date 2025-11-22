@@ -1,5 +1,5 @@
 import { describe, it, expect, } from 'vitest';
-import { Calculadora } from '../src/clase.ts';
+import { Calculadora } from '../src/calculadora/clase.ts';
 
 const operaciones = new Calculadora();
 
@@ -7,6 +7,7 @@ describe('Pruebas de la calculadora', () => {
     it('Suma de 2 y 3 debe ser 5', () => {
     expect(operaciones.sumar(2, 3)).toBe(5);
     });
+    
     it('Resta de 5 y 2 debe ser 3', () => {
     expect(operaciones.restar(5, 2)).toBe(3);
     });

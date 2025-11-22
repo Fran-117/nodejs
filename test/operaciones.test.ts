@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { sum } from '../src';
+import { sum } from '../src/calculadora';
 
 
 describe('RESULTADO DE OPERACIONES', () => {
@@ -8,3 +8,4 @@ describe('RESULTADO DE OPERACIONES', () => {
     expect(result).toEqual(4);
   });
 });
+
