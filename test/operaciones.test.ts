@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { sum } from '../src/calculadora';
+import { sum } from '../src/calculadora/index';
 
 
 describe('RESULTADO DE OPERACIONES', () => {
