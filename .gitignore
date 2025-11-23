@@ -1,4 +1,17 @@
+<<<<<<< HEAD
 *.log
 .DS_Store
 node_modules
 dist
+=======
+node_modules
+dist
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.development
+.env.test
+.env.production
+>>>>>>> 002d26aa9fa5deb7e16a97339a1b3da6eabae3ea

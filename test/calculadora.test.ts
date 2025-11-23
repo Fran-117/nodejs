@@ -1,5 +1,9 @@
 import { describe, it, expect, } from 'vitest';
+<<<<<<< HEAD:test/calcu.test.ts
 import { Calculadora } from '../src/calculadora/clase.ts';
+=======
+import { Calculadora } from '../src/calculadora.ts';
+>>>>>>> 002d26aa9fa5deb7e16a97339a1b3da6eabae3ea:test/calculadora.test.ts
 
 const operaciones = new Calculadora();
 
